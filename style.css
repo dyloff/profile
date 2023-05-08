@@ -1,0 +1,61 @@
+h1, h2, h3, p, li {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  color: rgb(71, 71, 86);
+}
+
+i {
+  color: rgba(86, 20, 124, 0.572);
+  font-size: 25px;
+}
+
+.profile{
+  height: 200px;
+  border-radius: 50;
+}
+
+.card-white {
+  background-color: white;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.528);
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+.list-inline {
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline li a i {
+  font-size: 24px;
+  transition: all 0.2s ease-in-out;
+}
+
+.list-inline li a i:hover {
+  transform: scale(1.2);
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .card-white {
+    padding: 10px;
+  }
+
+  .profile {
+    max-width: 100%;
+  }
+}
